@@ -5,9 +5,9 @@ from tkinter import messagebox
 
 
 root = tk.Tk()
-root.title('Aceitas?')
+root.title('Meu amor p sempre?')
 root.geometry('600x600')
-root.configure(background='#ffc8dd')
+root.configure(background='#47c8ff')
 
 
 def move_button_1(e):
@@ -19,20 +19,20 @@ def move_button_1(e):
 
 def accepted():
     messagebox.showinfo(
-        'Meu amor', 'Eu te amo meu amor, lanchinho mais tarde?')
+        'Meu amor', 'Eu te amo meu amor!')
 
 
 def denied():
     button_1.destroy()
 
 
-margin = Canvas(root, width=500, bg='#ffc8dd', height=100,
+margin = Canvas(root, width=500, bg='#47c8ff', height=100,
                 bd=0, highlightthickness=0, relief='ridge')
 margin.pack()
-text_id = Label(root, bg='#ffc8dd', text='Quer namorar comigo?',
+text_id = Label(root, bg='#ffc8dd', text='Quer casar comigo?',
                 fg='#590d22', font=('Montserrat', 24, 'bold'))
 text_id.pack()
-button_1 = tk.Button(root, text='Não', bg='#ffb3c1', command=denied,
+button_1 = tk.Button(root, text='Não', bg='#ff4747', command=denied,
                      relief=RIDGE, bd=3, font=('Montserrat', 8, 'bold'))
 button_1.pack()
 root.bind('<Motion>', move_button_1)
