@@ -1,2 +1,2 @@
-# https://luana1c.github.io/projetoc
+# https://luana1c.github.io/pedido_em_py
 
